@@ -40,8 +40,6 @@ def get_img_num():
     scrollable.populate(img_int)
     scrollable.grid()
 
-    print(scrollable.status_check())
-
 
 label = Label(frame, text="Enter the number of images", bg="gray", font=font.Font(family="Comic Sans MS", size=14)).grid()
 img_num = Entry(frame, font=font.Font(size=15))
